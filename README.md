@@ -1,2 +1,3 @@
-# SeeSharp
-Core C Sharp Codes &amp; Solutions.
+## SeeSharp
+- Core C Sharp Codes &amp; Solutions.
+#### **[ Developer : Blesslin Jerish R ]**
