@@ -1,4 +1,3 @@
-yourmomahoe, [30/11/21 5:46 PM]
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -106,6 +105,7 @@ namespace Canarys
                 int sum = a / b;
                 Console.WriteLine($"The Quotient of two numbers are : {sum}");
             }
+
         }
 
 
@@ -163,162 +163,25 @@ namespace Canarys
 
         }
 
-yourmomahoe, [30/11/21 5:46 PM]
-static void Main(string[] args)
-        {
-            Console.WriteLine(@"                
-    
-            yourmomahoe, [30/11/21 5:46 PM]
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
-namespace Canarys
-{
-    internal class Frameworks
-    {   
-        // Class Module
-        static void Stackname(string[] args)
-        { 
-                
-            // remove.this
-
-        }
-
-        // Time Module
-        static void Timing(string[] args)
-        {
-
-            // Buy Time
-            DateTime now = DateTime.Now;
-            Console.WriteLine(now.ToString("F"));
-        }
-
-        // Get user input
-        static void In(string[] args)
-        {
-            Console.WriteLine("Username : ");
-            string user = Console.ReadLine();
-
-            Console.WriteLine("Password : ");
-            string pass = Console.ReadLine();
-
-            Console.WriteLine($"Your username is {user} with the password {pass}. Please, rate our Security system. Your privacy matters.");
-        }
-
-    }
-
-
-    internal class Program
-    {
-        static void LooperWasted(string[] args)
-        {
-
-            //  Wasted For Loop
-            for (int i = 1, j = 1; i < 4 && j <= 1; i++)
-            {
-                Console.WriteLine(i + " " + j);
-                Console.WriteLine(i + " " + j * 2);
-                Console.WriteLine(i + " " + j * 3);
-            }
-
-            Console.ReadLine();
-        }
-
-
-        static void Whiler(string[] args)
-        {
-
-            int n = 1;
-            while (n <= 10)
-            {
-                Console.WriteLine(n);
-                n++;
-            }
-
-        }
-
-
-        // Static Operations
-        public class StaticOperations
-        {
-            public void Add()
-            {
-                int a = 10;
-                int b = 20;
-                int sum = a + b;
-                Console.WriteLine($"The sum of two numbers are : {sum}");
-            }
-
-            public void Sub()
-            {
-                int a = 10;
-                int b = 20;
-                int sum = a - b;
-                Console.WriteLine($"The Sub of two numbers are : {sum}");
-            }
-
-            public void Multi()
-            {
-                int a = 10;
-                int b = 20;
-                int sum = a * b;
-                Console.WriteLine($"The Multiple of two numbers are : {sum}");
-            }
-
-            public void Div()
-            {
-                int a = 10;
-                int b = 20;
-                int sum = a / b;
-                Console.WriteLine($"The Quotient of two numbers are : {sum}");
-            }
-        }
-
-
-        // Static Operations
-        public class DynamicOperations
-        {
-            public int Add(int a, int b)
-            {
-                return a + b;
-            }
-
-            public int Sub(int a, int b)
-            {
-                return a - b;
-            }
-
-            public int Multi(int a, int b)
-            {
-                return a * b;
-            }
-
-            public int Div(int a, int b)
-            {
-                return a / b;
-            }
-        }
-
-
         public class Ops{
-          // ADD
+
+            // Object initialization
+            StaticOperations summer = new StaticOperations();
+
+            // ADD
             StaticOperations summer = new StaticOperations();
             summer.Add();
 
             // SUB
-            StaticOperations subber = new StaticOperations();
+            StaticOperations summer = new StaticOperations();
             summer.Sub();
 
             // MULTI
-            StaticOperations multier = new StaticOperations();
+            StaticOperations summer = new StaticOperations();
             summer.Multi();
 
             // DIV
-            StaticOperations diver = new StaticOperations();
+            StaticOperations summer = new StaticOperations();
             summer.Div();
         }
 
@@ -353,7 +216,6 @@ namespace Canarys
 
         }
 
-yourmomahoe, [30/11/21 5:46 PM]
 static void Main(string[] args)
         {
             Console.WriteLine(@"
@@ -369,8 +231,8 @@ static void Main(string[] args)
     \::/  /       \:\__\        \:\__\        \:\__\        \:\__\          \:\__\     /:/  /   
      \/__/         \/__/         \/__/         \/__/         \/__/           \/__/     \/__/    
                                                 
-                                          [ Developer : Blesslin Jerish R ]
-                                              [ Stack : SeeSharp .net ]
+                                [ Developer : Blesslin Jerish R ]
+                                    [ Stack : SeeSharp .net ]
                               ");
             Console.WriteLine("");
             Console.WriteLine("Bonjour Canarys");
