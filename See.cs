@@ -169,55 +169,21 @@ namespace Canarys
             StaticOperations summer = new StaticOperations();
 
             // ADD
-            StaticOperations summer = new StaticOperations();
-            summer.Add();
+            // summer.Add();
 
             // SUB
-            StaticOperations summer = new StaticOperations();
-            summer.Sub();
+            // summer.Sub();
 
             // MULTI
-            StaticOperations summer = new StaticOperations();
-            summer.Multi();
+            // summer.Multi();
 
             // DIV
-            StaticOperations summer = new StaticOperations();
-            summer.Div();
+            // summer.Div();
         }
 
         
-        public class Formulas
-        {
 
-            public int Rectangle()
-            {
-                int l = 10;
-                int b = 20;
-                Console.WriteLine($"Are of the Rectangle is : {l*b}");
-                return l * b;
-            }
-
-            public int Triangle()
-            {
-                int b = 10;
-                int h = 20;
-                Console.WriteLine($"Are of the Triangle is : {b/2} * {h/2}");
-                return b / 2* h / 2;
-            }
-
-            public float Circle()
-            {
-                float pi = 3.14f;
-                int r = 20;
-                float area = pi * r * r;
-                Console.WriteLine($"Are of the Rectangle is : {area}");
-                return area;
-            }
-
-        }
-
-static void Main(string[] args)
-        {
+        static void Main(string[] args){
             Console.WriteLine(@"
       ___           ___           ___           ___           ___                       ___     
      /\__\         /\  \         /\  \         /\  \         /\  \                     /\__\    
@@ -242,45 +208,6 @@ static void Main(string[] args)
             // Temp Code Below
 
             
-
-            // Backup To Origin [ ctrl C + ctrl V ]
-            // Swap Code Above
-            Console.WriteLine("");
-            Console.WriteLine("Danks");
-            Console.ReadLine(); // Dont't Delete this 
-        }
-        
-    }
-}
-
-
-
-                                                
-                                          [ Developer : Blesslin Jerish R ]
-                                              [ Stack : SeeSharp .net ]
-                              ");
-            Console.WriteLine("");
-            Console.WriteLine("Bonjour Canarys");
-            DateTime now = DateTime.Now;
-            Console.WriteLine(now.ToString("F"));
-            Console.WriteLine("");
-            // Temp Code Below
-
-            // ADD
-            StaticOperations summer = new StaticOperations();
-            summer.Add();
-
-            // SUB
-            StaticOperations subber = new StaticOperations();
-            summer.Sub();
-
-            // MULTI
-            StaticOperations multier = new StaticOperations();
-            summer.Multi();
-
-            // DIV
-            StaticOperations diver = new StaticOperations();
-            summer.Div();
 
             // Backup To Origin [ ctrl C + ctrl V ]
             // Swap Code Above
